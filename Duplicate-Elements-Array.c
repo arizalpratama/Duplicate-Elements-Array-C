@@ -19,7 +19,6 @@ int main()
     {
         for(j=i+1; j<size; j++)
         {
-            /* If duplicate found then increment count by 1 */
             if(arr[i] == arr[j])
             {
                 count++;
